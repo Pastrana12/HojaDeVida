@@ -1,0 +1,237 @@
+body{
+    margin:0;
+    padding:0;
+    background: #e5f8f8; 
+}
+.Nombre{
+    width: 100%;
+    height: 300px;
+    background:#63ADF2;
+    transform: skewY(-4deg)
+}
+
+.Nombre .Contenido{
+    width: 40%;
+    height: 40%;
+    position:absolute;
+    left:20%;
+}
+.Nombre .Contenido .foto{
+    float: right;
+    width: 40%;
+    height: 200%;
+    transform: skewY(4deg);
+}
+.Nombre .Contenido .parra_1{
+    color:black;
+    font-family:"Tahoma", sans-serif;
+    font-weight: bolder;
+    font-size: 45px;
+    transform: skewY(4deg);
+    margin-bottom: 0;  
+}
+
+.Nombre .Contenido .parra_2{
+    color:black;
+    font-family:"Tahoma", sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    transform: skewY(4deg);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.MiPerfil {
+    width: 80%;
+    height: auto;
+    background:#63ADF2;
+    margin:5% auto;
+    padding: 30px;
+}
+
+.MiPerfil .titulo_Recuadro_1{
+    color: black;
+    font-family:"Tahoma", sans-serif;
+    text-align: center;
+    font-weight: bolder;
+    font-size: xx-large;
+    border-bottom: 2px #545E75 solid;
+
+}
+
+.MiPerfil .info_PERFIL{
+    color: black;
+    text-align: center;
+    font-family:"Tahoma", sans-serif;
+    font-size: x-large;
+}
+
+.Informacion {
+    width: 80%;
+    height: auto;
+    background:#63ADF2;
+    margin:5% auto;
+    padding: 30px;
+}
+
+.Informacion .titulo_Recuadro_2{
+    color: black;
+    font-family:"Tahoma", sans-serif;
+    text-align: center;
+    font-weight: bolder;
+    font-size: xx-large;
+    border-bottom: 2px #545E75 solid;
+}
+
+.Informacion  .info_born{
+    color: black;
+    font-family:"Tahoma", sans-serif;
+    font-weight:bolder;
+    font-size: x-large;
+    display: inline;
+}
+
+.Informacion  .fecha{
+    color: black;
+    font-family:"Tahoma", sans-serif;
+    font-weight: normal;
+    font-size: x-large;
+    display:inline;
+    margin-right: 15px;
+    
+}
+
+.Informacion  .info_Lugar{
+    color: black;
+    font-family:"Tahoma", sans-serif;
+    font-weight:bolder;
+    font-size: x-large;
+    display: inline;
+}
+
+.Informacion  .lugar{
+    color: black;
+    font-family:"Tahoma", sans-serif;
+    font-weight: normal;
+    font-size: x-large;
+    display: inline;
+    margin-right: 15px;
+}
+
+.Informacion  .info_cc{
+    color: black;
+    font-family:"Tahoma", sans-serif;
+    font-weight:bolder;
+    font-size: x-large;
+    display: inline;
+}
+
+.Informacion  .cedula{
+    color: black;
+    font-family:"Tahoma", sans-serif;
+    font-weight: normal;
+    font-size: x-large;
+    display: inline;
+    margin-right: 15px;
+}
+
+.Informacion  .info_ec{
+    color: black;
+    font-family:"Tahoma", sans-serif;
+    font-weight:bolder;
+    font-size: x-large;
+    display: inline;
+}
+
+.Informacion  .EC{
+    color: black;
+    font-family:"Tahoma", sans-serif;
+    font-weight: normal;
+    font-size: x-large;
+    display: inline;
+    margin-right: 15px;
+}
+
+.Informacion  .info_celular{
+    color: black;
+    font-family:"Tahoma", sans-serif;
+    font-weight:bolder;
+    font-size: x-large;
+    display: inline;
+}
+
+.Informacion  .celular{
+    color: black;
+    font-family:"Tahoma", sans-serif;
+    font-weight: normal;
+    font-size: x-large;
+    display: inline;
+    margin-right: 15px;
+}
+
+.info_academico {
+    width: 80%;
+    height: auto;
+    background:#63ADF2;
+    margin:5% auto;
+    padding: 30px;
+}
+.info_academico  .titulo_recuadro_3{
+    color: black;
+    font-family:"Tahoma", sans-serif;
+    text-align: center;
+    font-weight: bolder;
+    font-size: xx-large;
+    border-bottom: 2px #545E75 solid;
+}
+
+.info_academico  .escuela{
+    color: black;
+    font-family:"Tahoma", sans-serif;
+    font-weight:bolder;
+    font-size: x-large;
+    display: inline;
+}
+
+.info_academico  .nombre_escuela{
+    color: black;
+    font-family:"Tahoma", sans-serif;
+    font-weight: normal;
+    font-size: x-large;
+    display:inline;
+    margin-right: 15px;
+}
+
+.info_academico  .sede{
+    color: black;
+    font-family:"Tahoma", sans-serif;
+    font-weight:bolder;
+    font-size: x-large;
+    display: inline;
+}
+
+.info_academico  .sede_ciudad{
+    color: black;
+    font-family:"Tahoma", sans-serif;
+    font-weight: normal;
+    font-size: x-large;
+    display:inline;
+    margin-right: 15px;
+}
+
+.info_academico  .tiempo{
+    color: black;
+    font-family:"Tahoma", sans-serif;
+    font-weight:bolder;
+    font-size: x-large;
+    display: inline;
+}
+
+.info_academico  .tiempo_duracion{
+    color: black;
+    font-family:"Tahoma", sans-serif;
+    font-weight: normal;
+    font-size: x-large;
+    display:inline;
+    margin-right: 15px;
+}
